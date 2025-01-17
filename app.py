@@ -19,9 +19,9 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 # Initialize Reddit API client
 reddit = praw.Reddit(
-    client_id='bDWJ0CETEqdyBi1XhH3gGA',
-    client_secret='YpLczCPqjfsCKRk8RlcKbf9cpOYpuA',
-    user_agent='MarketMind'
+    client_id='write client id here',
+    client_secret='write client secret key here',
+    user_agent='write user agent here'
 )
 
 # Initialize Flask app
