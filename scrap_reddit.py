@@ -26,8 +26,8 @@ nltk.download('wordnet')
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Initialize PRAW client (Reddit API)
-reddit = praw.Reddit(client_id='bDWJ0CETEqdyBi1XhH3gGA',
-                     client_secret='YpLczCPqjfsCKRk8RlcKbf9cpOYpuA',
+reddit = praw.Reddit(client_id='TYPE CLIENT ID ',
+                     client_secret='TYPE CLIENT SECRET KEY',
                      user_agent='MarketMind')
 
 
